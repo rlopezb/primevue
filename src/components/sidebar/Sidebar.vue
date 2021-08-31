@@ -98,7 +98,7 @@ export default {
         focus() {
             let focusable = DomHandler.findSingle(this.container, 'input,button');
             if (focusable) {
-                focusable.focus();
+                //focusable.focus();
             }
         },
         enableModality() {
